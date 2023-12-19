@@ -1,6 +1,6 @@
 # <p align="center">SISTEMA DE RECOMENDACION BASADO EN FEEDBACK IMPLICITO</p>
 
-[Acceso a archivo Jupyter.](https://github.com/mantiads/Clustering/blob/main/clusters.ipynb)
+[Acceso a archivo Jupyter.](https://github.com/mantiads/Clustering/blob/main/clusters.ipynb) REVISAR
 
 
 ## INTRODUCCION
