@@ -17,7 +17,7 @@ La elección del algoritmo de factorización de matrices, y en particular de Alt
 En primer lugar, extraemos las interacciones realizadas por cada uno de los clientes con los 15 productos de la compañía. Luego, nos quedamos únicamente con los usuarios de nuestra base de datos que han realizado interacciones con los productos. Buscamos que las contrataciones repetidas tengan mayor peso, pero para que este efecto disminuya a medida que aumenta el número de contrataciones repetidas y el impacto de un fanático del producto, utilizaremos BM25 (Best Matching 25).
 
 ## HIPERPARAMETROS Y EVALUACION
-Seleccionamos la métrica de evaluación precision_at_k, que mide la precisión de los top k elementos recomendados. Después de realizar una búsqueda de hiperparámetros (la cual debemos diseñar, ya que la biblioteca seleccionada no cuenta con esta opción), entrenamos el modelo con los hiperparámetros que arrojan una mejor métrica, en este caso, 0.30 (lo que significa que el 30% de los elementos recomendados en las listas de los usuarios son relevantes para ellos).
+Seleccionamos la métrica de evaluación precision_at_k, que mide la precisión de los top k elementos recomendados. Después de realizar una búsqueda de hiperparámetros (la cual debemos diseñar, ya que la biblioteca seleccionada no cuenta con esta opción), entrenamos el modelo con los hiperparámetros que arrojan una mejor métrica, en este caso, 0.32 (lo que significa que el 32% de los elementos recomendados en las listas de los usuarios son relevantes para ellos).
 
 ## RECOMENDACIONES
 Obtenemos la lista de productos con mayor puntuación por usuario, excluyendo de la misma los productos que ya han sido consumidos anteriormente.
